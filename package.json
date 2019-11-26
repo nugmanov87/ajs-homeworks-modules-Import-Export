@@ -1,0 +1,33 @@
+{
+  "name": "Import/Export",
+  "version": "1.0.0",
+  "description": "ajs-homeworks-modules-Webpack",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nugmanov87/ajs-homeworks-modules-Webpack.git"
+  },
+  "keywords": [
+    "Webpack"
+  ],
+  "author": "spartak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nugmanov87/ajs-homeworks-modules-Webpack/issues"
+  },
+  "homepage": "https://github.com/nugmanov87/ajs-homeworks-modules-Webpack#readme"
+}
