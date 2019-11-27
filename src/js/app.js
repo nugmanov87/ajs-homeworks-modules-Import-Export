@@ -1,8 +1,7 @@
-import {
-  Game,
+import Game, {
   GameSavingData,
-  readGameSaving as loadGame,
-  writeGameSaving as saveGame
+  writeGameSaving as saveGame,
+  readGameSaving as loadGame
 } from "./game.js";
 
 const game = new Game();
